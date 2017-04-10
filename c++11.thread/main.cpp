@@ -2,6 +2,11 @@
 #include <thread> 
 #include <unistd.h>
 
+/*
+	启动一个线程并等待它运行结束 
+*/
+
+
 //#if defined(WIN32) || defined(WIN64)
 #include <windows.h>
 #define sleep(n) Sleep(1000 * (n))
