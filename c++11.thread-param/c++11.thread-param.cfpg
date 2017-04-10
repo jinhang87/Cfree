@@ -1,5 +1,5 @@
 <Projects version="2.0">
-	<Project active="1">c++11.thread-param.cfp</Project>
-	<Project active="0">..\c++11.thread\thread.cfp</Project>
+	<Project active="0">c++11.thread-param.cfp</Project>
+	<Project active="1">..\c++11.thread\thread.cfp</Project>
 	<File active="1">main.cpp</File>
 </Projects>
