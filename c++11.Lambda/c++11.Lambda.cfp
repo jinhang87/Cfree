@@ -1,26 +1,22 @@
 <Project version="3.0">
-<Name>c++11.rvalue</Name>
+<Name>c++11.Lambda</Name>
 <Type>CUI</Type>
-<TargetName>c++11.rvalue</TargetName>
+<TargetName>c++11.Lambda</TargetName>
 <TargetType>exe</TargetType>
 <Folder name="Source Files">
 	<File>main.cpp</File>
 	<File>test1.cpp</File>
-	<File>test3.cpp</File>
-	<File>test2.cpp</File>
 </Folder>
 <Folder name="Header Files">
 </Folder>
 <Folder name="Other Files">
 </Folder>
-<Attribute topline="7" x="21" y="12">main.cpp</Attribute>
-<Attribute topline="1" x="1" y="5">test1.cpp</Attribute>
-<Attribute topline="49" x="23" y="53">test3.cpp</Attribute>
-<Attribute topline="1" x="21" y="6">test2.cpp</Attribute>
-<FolderState>011</FolderState>
+<Attribute topline="1" x="3" y="11">main.cpp</Attribute>
+<Attribute topline="1" x="5" y="24">test1.cpp</Attribute>
+<FolderState>111</FolderState>
 <DefConfig>TDM-GCC-5.1.0</DefConfig>
 <Builder name="TDM-GCC-5.1.0" type="MinGW" version="1.0">
-	<TargetName>c++11.rvalue</TargetName>
+	<TargetName>c++11.Lambda</TargetName>
 	<TargetType>exe</TargetType>
 	<TargetDir>TDM-GCC-5.1.0</TargetDir>
 	<InterimDir>TDM-GCC-5.1.0</InterimDir>
