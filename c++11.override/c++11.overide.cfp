@@ -1,7 +1,7 @@
 <Project version="3.0">
-<Name>alignment</Name>
+<Name>c++11.overide</Name>
 <Type>CUI</Type>
-<TargetName>alignment</TargetName>
+<TargetName>c++11.overide</TargetName>
 <TargetType>exe</TargetType>
 <Folder name="Source Files">
 	<File>main.cpp</File>
@@ -11,12 +11,12 @@
 </Folder>
 <Folder name="Other Files">
 </Folder>
-<Attribute topline="1" x="16" y="6">main.cpp</Attribute>
-<Attribute topline="1" x="20" y="5">test1.cpp</Attribute>
+<Attribute topline="1" x="10" y="17">main.cpp</Attribute>
+<Attribute topline="13" x="1" y="12">test1.cpp</Attribute>
 <FolderState>111</FolderState>
 <DefConfig>TDM-GCC-5.1.0</DefConfig>
 <Builder name="TDM-GCC-5.1.0" type="MinGW" version="1.0">
-	<TargetName>alignment</TargetName>
+	<TargetName>c++11.overide</TargetName>
 	<TargetType>exe</TargetType>
 	<TargetDir>TDM-GCC-5.1.0</TargetDir>
 	<InterimDir>TDM-GCC-5.1.0</InterimDir>
