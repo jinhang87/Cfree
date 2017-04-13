@@ -1,5 +1,5 @@
 <Projects version="2.0">
-	<Project active="1">c++11.traits.cfp</Project>
+	<Project active="1">functional.cfp</Project>
 	<File active="0">main.cpp</File>
 	<File active="1">test1.cpp</File>
 </Projects>

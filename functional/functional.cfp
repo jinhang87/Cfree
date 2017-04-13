@@ -1,7 +1,7 @@
 <Project version="3.0">
-<Name>c++11.traits</Name>
+<Name>functional</Name>
 <Type>CUI</Type>
-<TargetName>c++11.traits</TargetName>
+<TargetName>functional</TargetName>
 <TargetType>exe</TargetType>
 <Folder name="Source Files">
 	<File>main.cpp</File>
@@ -11,12 +11,12 @@
 </Folder>
 <Folder name="Other Files">
 </Folder>
-<Attribute topline="7" x="3" y="6">main.cpp</Attribute>
-<Attribute topline="31" x="19" y="99">test1.cpp</Attribute>
+<Attribute topline="1" x="10" y="8">main.cpp</Attribute>
+<Attribute topline="22" x="31" y="36">test1.cpp</Attribute>
 <FolderState>111</FolderState>
 <DefConfig>TDM-GCC-5.1.0</DefConfig>
 <Builder name="TDM-GCC-5.1.0" type="MinGW" version="1.0">
-	<TargetName>c++11.traits</TargetName>
+	<TargetName>functional</TargetName>
 	<TargetType>exe</TargetType>
 	<TargetDir>TDM-GCC-5.1.0</TargetDir>
 	<InterimDir>TDM-GCC-5.1.0</InterimDir>
