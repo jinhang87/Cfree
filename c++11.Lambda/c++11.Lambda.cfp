@@ -6,13 +6,15 @@
 <Folder name="Source Files">
 	<File>main.cpp</File>
 	<File>test1.cpp</File>
+	<File>test2_stl.cpp</File>
 </Folder>
 <Folder name="Header Files">
 </Folder>
 <Folder name="Other Files">
 </Folder>
-<Attribute topline="1" x="3" y="11">main.cpp</Attribute>
-<Attribute topline="1" x="5" y="24">test1.cpp</Attribute>
+<Attribute topline="4" x="7" y="17">main.cpp</Attribute>
+<Attribute topline="4" x="2" y="7">test1.cpp</Attribute>
+<Attribute topline="25" x="32" y="12">test2_stl.cpp</Attribute>
 <FolderState>111</FolderState>
 <DefConfig>TDM-GCC-5.1.0</DefConfig>
 <Builder name="TDM-GCC-5.1.0" type="MinGW" version="1.0">

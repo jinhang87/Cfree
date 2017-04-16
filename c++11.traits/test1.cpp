@@ -51,10 +51,10 @@ void test1()
   	
  	//std::is_class
  	{
-	struct A {};
-	class B {};
-	union C {int i; float f;};
-	enum class D {x,y,z};	
+	struct A {};//true
+	class B {};//true
+	union C {int i; float f;};//false
+	enum class D {x,y,z};	//false
 	std::cout << "is_class.A: " << std::is_class<A>::value << std::endl;
 	std::cout << "is_class.B: " << std::is_class<B>::value << std::endl;
 	std::cout << "is_class.C: " << std::is_class<C>::value << std::endl;
@@ -70,10 +70,10 @@ void test1()
 	std::cout << "is_function.int(*)(int): " << std::is_function<int(*)(int)>::value << std::endl;
  	
   	//std::is_pointer
-	std::cout << "is_pointer.int: " << std::is_pointer<int>::value << std::endl;
-    std::cout << "is_pointer.int*: " << std::is_pointer<int*>::value << std::endl;
-    std::cout << "is_pointer.int**: " << std::is_pointer<int**>::value << std::endl;
-    std::cout << "is_pointer.int(*)(int): " << std::is_pointer<int(*)(int)>::value << std::endl;
+	std::cout << "is_pointer.int: " << std::is_pointer<int>::value << std::endl;//false
+    std::cout << "is_pointer.int*: " << std::is_pointer<int*>::value << std::endl;//true
+    std::cout << "is_pointer.int**: " << std::is_pointer<int**>::value << std::endl;//true
+    std::cout << "is_pointer.int(*)(int): " << std::is_pointer<int(*)(int)>::value << std::endl;//true
     
     
     //std::is_same
