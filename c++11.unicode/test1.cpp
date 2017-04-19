@@ -1,6 +1,6 @@
-#include<tchar.h>
-#include<locale>
-#include<codecvt>
+//#include<tchar.h>
+//#include<locale>
+//#include<codecvt>
 #include<iostream>
 
 void test1()
