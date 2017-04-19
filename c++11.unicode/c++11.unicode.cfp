@@ -11,9 +11,11 @@
 </Folder>
 <Folder name="Other Files">
 </Folder>
+<Attribute topline="1" x="13" y="5">main.cpp</Attribute>
+<Attribute topline="1" x="2" y="9">test1.cpp</Attribute>
 <FolderState>111</FolderState>
 <DefConfig>TDM-GCC-5.1.0</DefConfig>
-<Builder name="TDM-GCC-5.1.0" type="MinGW" version="1.0" changed="1">
+<Builder name="TDM-GCC-5.1.0" type="MinGW" version="1.0">
 	<TargetName>c++11.unicode</TargetName>
 	<TargetType>exe</TargetType>
 	<TargetDir>TDM-GCC-5.1.0</TargetDir>
