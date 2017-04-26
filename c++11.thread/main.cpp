@@ -1,37 +1,16 @@
 #include <iostream>
 #include <thread> 
-#include <unistd.h>
-
-/*
-	启动一个线程并等待它运行结束 
-*/
-
-
-//#if defined(WIN32) || defined(WIN64)
-#include <windows.h>
-#define sleep(n) Sleep(1000 * (n))
-//#else
-//#include <unistd.h>
-//#endif
 
 using namespace std;
 
-void my_thread()
-{
-	auto i = 10;
-	while(--i!=0)
-	{
-		puts("hello, world");
-		sleep(1);
-	}	
-}
 
+extern int test_basic();
+extern int test_producer_consumer();
 
 int main(int argc, char *argv[])
 {
-	thread t(my_thread);
-	t.join();
-	
+	//test_basic();
+	test_producer_consumer();
 	cout<<"Hello C-Free!"<<endl;
 	return 0;
 }

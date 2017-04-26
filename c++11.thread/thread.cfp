@@ -5,6 +5,8 @@
 <TargetType>exe</TargetType>
 <Folder name="Source Files">
 	<File>main.cpp</File>
+	<File>producer-consumer.cpp</File>
+	<File>basic.cpp</File>
 </Folder>
 <Folder name="Header Files">
 </Folder>
