@@ -1,4 +1,6 @@
 <Projects version="2.0">
 	<Project active="1">thread.cfp</Project>
-	<File active="1">main.cpp</File>
+	<File active="0">main.cpp</File>
+	<File active="0">basic.cpp</File>
+	<File active="1">producer-consumer.cpp</File>
 </Projects>

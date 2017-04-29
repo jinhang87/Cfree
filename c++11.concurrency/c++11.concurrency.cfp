@@ -1,22 +1,25 @@
 <Project version="3.0">
-<Name>c++11.traits</Name>
+<Name>c++11.concurrency</Name>
 <Type>CUI</Type>
-<TargetName>c++11.traits</TargetName>
+<TargetName>c++11.concurrency</TargetName>
 <TargetType>exe</TargetType>
 <Folder name="Source Files">
 	<File>main.cpp</File>
-	<File>test1.cpp</File>
+	<File>test_lock_guard.cpp</File>
+	<File>test_hierarchical_mutex.cpp</File>
+	<File>test_unique_lock.cpp</File>
+	<File>test_one_flag.cpp</File>
+	<File>test_future.cpp</File>
+	<File>test_async.cpp</File>
 </Folder>
 <Folder name="Header Files">
 </Folder>
 <Folder name="Other Files">
 </Folder>
-<Attribute topline="7" x="3" y="6">main.cpp</Attribute>
-<Attribute topline="13" x="49" y="16">test1.cpp</Attribute>
 <FolderState>111</FolderState>
 <DefConfig>TDM-GCC-5.1.0</DefConfig>
 <Builder name="TDM-GCC-5.1.0" type="MinGW" version="1.0">
-	<TargetName>c++11.traits</TargetName>
+	<TargetName>c++11.concurrency</TargetName>
 	<TargetType>exe</TargetType>
 	<TargetDir>TDM-GCC-5.1.0</TargetDir>
 	<InterimDir>TDM-GCC-5.1.0</InterimDir>
