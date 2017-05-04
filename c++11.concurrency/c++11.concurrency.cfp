@@ -11,11 +11,13 @@
 	<File>test_one_flag.cpp</File>
 	<File>test_future.cpp</File>
 	<File>test_async.cpp</File>
+	<File>test_hardware_concurrency.cpp</File>
 </Folder>
 <Folder name="Header Files">
 </Folder>
 <Folder name="Other Files">
 </Folder>
+<Attribute topline="40" x="11" y="56">test_async.cpp</Attribute>
 <FolderState>111</FolderState>
 <DefConfig>TDM-GCC-5.1.0</DefConfig>
 <Builder name="TDM-GCC-5.1.0" type="MinGW" version="1.0">
