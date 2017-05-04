@@ -7,11 +7,15 @@
 	<File>main.cpp</File>
 	<File>example_has_member.cpp</File>
 	<File>example_C++11_is_supported.cpp</File>
+	<File>example_producer-consumer.cpp</File>
 </Folder>
 <Folder name="Header Files">
 </Folder>
 <Folder name="Other Files">
 </Folder>
+<Attribute topline="1" x="23" y="8">main.cpp</Attribute>
+<Attribute topline="7" x="60" y="7">example_has_member.cpp</Attribute>
+<Attribute topline="1" x="7" y="3">example_C++11_is_supported.cpp</Attribute>
 <FolderState>111</FolderState>
 <DefConfig>TDM-GCC-5.1.0</DefConfig>
 <Builder name="TDM-GCC-5.1.0" type="MinGW" version="1.0">

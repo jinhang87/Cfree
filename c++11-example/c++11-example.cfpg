@@ -1,3 +1,6 @@
 <Projects version="2.0">
 	<Project active="1">c++11-example.cfp</Project>
+	<File active="0">main.cpp</File>
+	<File active="1">example_has_member.cpp</File>
+	<File active="0">example_C++11_is_supported.cpp</File>
 </Projects>
