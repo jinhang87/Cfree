@@ -7,6 +7,8 @@
 	<File>main.cpp</File>
 	<File>producer-consumer.cpp</File>
 	<File>basic.cpp</File>
+	<File>test_native_handle.cpp</File>
+	<File>test_yield.cpp</File>
 </Folder>
 <Folder name="Header Files">
 </Folder>
