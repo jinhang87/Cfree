@@ -12,12 +12,18 @@
 	<File>test_future.cpp</File>
 	<File>test_async.cpp</File>
 	<File>test_hardware_concurrency.cpp</File>
+	<File>test_promise.cpp</File>
+	<File>test_promise_cin.cpp</File>
 </Folder>
 <Folder name="Header Files">
 </Folder>
 <Folder name="Other Files">
 </Folder>
-<Attribute topline="40" x="11" y="56">test_async.cpp</Attribute>
+<Attribute topline="7" x="4" y="22">main.cpp</Attribute>
+<Attribute topline="13" x="1" y="1">test_lock_guard.cpp</Attribute>
+<Attribute topline="1" x="11" y="56">test_async.cpp</Attribute>
+<Attribute topline="1" x="8" y="6">test_promise.cpp</Attribute>
+<Attribute topline="4" x="8" y="7">test_promise_cin.cpp</Attribute>
 <FolderState>111</FolderState>
 <DefConfig>TDM-GCC-5.1.0</DefConfig>
 <Builder name="TDM-GCC-5.1.0" type="MinGW" version="1.0">
