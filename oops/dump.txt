@@ -1,0 +1,24 @@
+# [247261.413026] pgd = d39c4000
+[247261.416077] [00000000] *pgd=5ed25831, *pte=00000000, *ppte=00000000
+[247261.423212] 
+[247261.424918] CPU: 0 PID: 11541 Comm: oops Tainted: P           O 3.10.0 #2
+[247261.432425] task: da7be400 ti: da5ee000 task.ti: da5ee000
+[247261.438171] PC is at 0x8514
+[247261.441076] LR is at 0x8508
+[247261.445960] pc : [<00008514>]    lr : [<00008508>]    psr: 60000010
+[247261.445960] sp : be914c38  ip : b6f39f74  fp : be914c4c
+[247261.458341] r10: b6f4e300  r9 : 00000000  r8 : 00000000
+[247261.464654] r7 : 00000008  r6 : be914c70  r5 : 000082ec  r4 : be914efa
+[247261.472050] r3 : 00000000  r2 : 00000004  r1 : be914e14  r0 : 00000000
+[247261.478818] Flags: nZCv  IRQs on  FIQs on  Mode USER_32  ISA ARM  Segment user
+[247261.488137] Control: 10c53c7d  Table: 539c404a  DAC: 00000015
+[247261.494556] CPU: 0 PID: 11541 Comm: oops Tainted: P           O 3.10.0 #2
+[247261.502089] [<c001a5e0>] (unwind_backtrace+0x0/0xf4) from [<c0016da4>] (show_stack+0x10/0x14)
+[247261.511015] [<c0016da4>] (show_stack+0x10/0x14) from [<c001bbe0>] (__do_user_fault+0x50/0x8c)
+[247261.520263] [<c001bbe0>] (__do_user_fault+0x50/0x8c) from [<c001bdc0>] (do_page_fault+0x1a4/0x278)
+[247261.531625] [<c001bdc0>] (do_page_fault+0x1a4/0x278) from [<c0008354>] (do_DataAbort+0x38/0x98)
+[247261.540629] [<c0008354>] (do_DataAbort+0x38/0x98) from [<c00130b4>] (__dabt_usr+0x34/0x40)
+[247261.549831] Exception stack(0xda5effb0 to 0xda5efff8)
+[247261.555742] ffa0:                                     00000000 be914e14 00000004 00000000
+[247261.566028] ffc0: be914efa 000082ec be914c70 00000008 00000000 00000000 b6f4e300 be914c4c
+[247261.574851] ffe0: b6f39f74 be914c38 00008508 00008514 60000010 ffffffff
